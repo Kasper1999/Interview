@@ -1,0 +1,12 @@
+@import url("./global/normalize.css");
+@import url("./global/fonts.css");
+@import url("./global/variabl.css");
+@import url("./global/general.css");
+
+@import url("./parts/header.css");
+@import url("./parts/domain.css");
+@import url("./parts/hosting.css");
+@import url("./parts/about.css");
+@import url("./parts/slider.css");
+@import url("./parts/support.css");
+@import url("./parts/footer.css");

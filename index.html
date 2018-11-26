@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+		<title>Ghost Host Homepage</title>
+		<meta name="description" content="Ghost Host web page">
+		<link rel="stylesheet" href="./css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:100" rel="stylesheet">
+		<script src="https://use.fontawesome.com/9e169d9b5e.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<h1 class="visually-hidden">Ghost Host Homepage</h1>
+				<div class="header__top">
+					<a class="header__logo" href="./index.html">
+						<img src="./img/logo.png" alt="Ghost Host logotype" width="133" height="29">
+					</a>
+					<nav class="header__nav">
+						<ul class="header__items">
+							<li class="header__item"><a class="header__link" href="#">Home</a></li>
+							<li class="header__item"><a class="header__link" href="#domain">Domain</a></li>
+							<li class="header__item"><a class="header__link" href="#hosting">Hosting</a></li>
+							<li class="header__item"><a class="header__link" href="#clients">Clients</a></li>
+							<li class="header__item"><a class="header__link" href="#blog">Blog</a></li>
+							<li class="header__item"><a class="header__link" href="#support">Support</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__intro">
+					<h2 class="intro__heading">Hello!</h2>
+					<p class="intro__text">We love our work...<br>And We're taking it seriously...</p>
+				</div>
+			</div>
+			<div class="header__login">
+				<a class="header__button header__button--login" href="#">Login</a>
+				<a class="header__button header__button--register" href="#">Register</a>
+			</div>
+		</header>
+		<main>
+			<!-- domain -->
+			<section class="domain container" id="domain">
+				<header class="domain__header">
+					<h2 class="domain__heading">Would you like to buy a new domain ?</h2>
+					<p class="domain__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id molestier.</p>
+				</header>
+				<form class="domain__form" action="#" method="post">
+					<label class="domain__label" for="domain-input">www.</label>
+					<input class="domain__input" type="text" name="domain-input" id="domain-input" placeholder="What do you want?">
+					<div class="domain__select-wrapper">
+						<select class="domain__select" name="domain-select" id="domain-select">
+							<option class="domain__option" value="com" selected>.com</option>
+							<option class="domain__option" value="net">.net</option>
+							<option class="domain__option" value="org">.org</option>
+						</select>
+					</div>
+				</form>
+				<table class="domain__table table">
+					<tr>
+						<th class="table__header" scope="row">.COM</th>
+						<td>1 year</td>
+						<td>$9.00 USD</td>
+						<td>Transfer Price No</td>
+					</tr>
+					<tr>
+						<th class="table__header" scope="row">.NET</th>
+						<td>1 year</td>
+						<td>$9.00 USD</td>
+						<td>Transfer Price No</td>	
+					</tr>
+				</table>
+			</section>
+			<!-- end -->
+			<!-- hosting -->
+			<section class="hosting" id="hosting">
+				<h2 class="visually-hidden">Hosting</h2>
+				<div class="container">
+					<ul class="hosting__list">
+						<li class="hosting__item hosting__item--basic">
+							<div class="hosting__infographics">
+								<svg width="56" height="56" viewBox="0 0 56 56" class="hosting__chart--basic">
+								 	<circle cx="50%" cy="50%" r="25" fill="none" stroke-dasharray="157.08" stroke-dashoffset="-120" />
+								</svg>
+								<i class="fa fa-anchor"></i>
+							</div>
+							<h4 class="hosting__heading">Basic package</h4>
+							<div class="hosting__table-wrapper">
+								<table class="hosting__table">
+									<tr>
+										<th class="hosting__table-head" scope="row">Disk Space (GB)</th>
+										<td class="hosting__table-cell">50</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Subdomains</th>
+										<td class="hosting__table-cell">50</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Transfer (GB)</th>
+										<td class="hosting__table-cell">50</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Data bases</th>
+										<td class="hosting__table-cell">1</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Dashboards</th>
+										<td class="hosting__table-cell">1</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row" colspan="2">Control Panel & FTP</th>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row" colspan="2">Free Support</th>
+									</tr>
+								</table>
+							</div>
+							<p class="hosting__price"><sup class="hosting__dollar">$</sup>15<span class="hosting__month">/Mo</span></p>
+							<button class="hosting__button" type="button">Select plan</button>
+						</li>
+						<li class="hosting__item hosting__item--normal">
+							<div class="hosting__infographics">
+								<svg width="56" height="56" viewBox="0 0 56 56" class="hosting__chart--normal">
+								 	<circle cx="50%" cy="50%" r="25" fill="none" stroke-dasharray="157.08" stroke-dashoffset="79"/>
+								</svg>
+								<i class="fa fa-star-half-empty"></i>
+							</div>
+							<h4 class="hosting__heading">Normal package</h4>
+							<div class="hosting__table-wrapper">
+								<table class="hosting__table">
+									<tr>
+										<th class="hosting__table-head" scope="row">Disk Space (GB)</th>
+										<td class="hosting__table-cell">100</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Subdomains</th>
+										<td class="hosting__table-cell">100</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Transfer (GB)</th>
+										<td class="hosting__table-cell">100</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Data bases</th>
+										<td class="hosting__table-cell">2</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Dashboards</th>
+										<td class="hosting__table-cell">2</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row" colspan="2">Control Panel & FTP</th>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row" colspan="2">Free Support</th>
+									</tr>
+								</table>
+							</div>
+							<p class="hosting__price"><sup class="hosting__dollar">$</sup>30<span class="hosting__month">/Mo</span></p>
+							<button class="hosting__button" type="button">Select plan</button>
+						</li>
+						<li class="hosting__item hosting__item--big">
+							<div class="hosting__infographics">
+								<svg width="56" height="56" viewBox="0 0 56 56" class="hosting__chart--big">
+								 	<circle cx="50%" cy="50%" r="25" fill="none" stroke-dasharray="157.08" stroke-dashoffset="43"/>
+								</svg>
+								<i class="fa fa-star"></i>
+							</div>
+							<h4 class="hosting__heading">Big package</h4>
+							<div class="hosting__table-wrapper">
+								<table class="hosting__table">
+									<tr>
+										<th class="hosting__table-head" scope="row">Disk Space (GB)</th>
+										<td class="hosting__table-cell">150</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Subdomains</th>
+										<td class="hosting__table-cell">150</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Transfer (GB)</th>
+										<td class="hosting__table-cell">150</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Data bases</th>
+										<td class="hosting__table-cell">4</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Dashboards</th>
+										<td class="hosting__table-cell">4</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row" colspan="2">Control Panel & FTP</th>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row" colspan="2">Free Support</th>
+									</tr>
+								</table>
+							</div>
+							<p class="hosting__price"><sup class="hosting__dollar">$</sup>40<span class="hosting__month">/Mo</span></p>
+							<button class="hosting__button" type="button">Select plan</button>
+						</li>
+						<li class="hosting__item hosting__item--biggest">
+							<div class="hosting__infographics">
+								<svg width="56" height="56" viewBox="0 0 56 56" class="hosting__chart--biggest">
+								 	<circle cx="50%" cy="50%" r="25" fill="none" stroke-dasharray="157.08" stroke-dashoffset="0"/>
+								</svg>
+								<i class="fa fa-diamond"></i>
+							</div>
+							<h4 class="hosting__heading">Biggest package</h4>
+							<div class="hosting__table-wrapper">
+								<table class="hosting__table">
+									<tr>
+										<th class="hosting__table-head" scope="row">Disk Space (GB)</th>
+										<td class="hosting__table-cell">250</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Subdomains</th>
+										<td class="hosting__table-cell">250</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Transfer (GB)</th>
+										<td class="hosting__table-cell">250</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Data bases</th>
+										<td class="hosting__table-cell">6</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row">Dashboards</th>
+										<td class="hosting__table-cell">6</td>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row" colspan="2">Control Panel & FTP</th>
+									</tr>
+									<tr>
+										<th class="hosting__table-head" scope="row" colspan="2">Free Support</th>
+									</tr>
+								</table>
+							</div>
+							<p class="hosting__price"><sup class="hosting__dollar">$</sup>70<span class="hosting__month">/Mo</span></p>
+							<button class="hosting__button" type="button">Select plan</button>
+						</li>
+					</ul>
+					<div class="dashed-border"></div>
+				</div>
+			</section>
+			<!-- end -->
+			<!-- about us -->
+			<section class="about container" id="clients">
+				<div class="about__text">
+					<h2 class="about__heading"><span>About</span> Us</h2>
+					<p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat eget diam sit amet molestie.Curabitur. ut ipsum bibendum tortor lacinia fermentum nec joeıa. Mauris at augue libero. Fusce posuere, sapien nec poır. Uaee augsuada sed mauris in tincidunt...</p>
+				</div>
+				<div class="dashed-border-vertical"></div>
+				<div class="about__team">
+					<ul class="about__list">
+						<li class="about__item">
+							<img class="about__photo" src="./img/about-1.png" alt="Jonny Doe photo" width="90" height="90">
+							<h3 class="about__name">Jonny Doe</h3>
+							<span class="about__occupation">Designer</span>
+							<ul class="about__social">
+								<li class="about__social-item">
+									<a class="about__social-link" href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li class="about__social-item about__social-item">
+									<a class="about__social-link about__social-link--twitter" href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li class="about__social-item">
+									<a class="about__social-link" href="#"><i class="fa fa-link"></i></a>
+								</li>
+							</ul>
+						</li>
+						<li class="about__item">
+							<img class="about__photo" src="./img/about-2.png" alt="Johny Doe photo" width="90" height="90">
+							<h3 class="about__name">John Doe</h3>
+							<span class="about__occupation">Designer</span>
+							<ul class="about__social">
+								<li class="about__social-item">
+									<a class="about__social-link" href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li class="about__social-item about__social-item">
+									<a class="about__social-link about__social-link--twitter" href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li class="about__social-item">
+									<a class="about__social-link" href="#"><i class="fa fa-link"></i></a>
+								</li>
+							</ul>
+						</li>
+						<li class="about__item">
+							<img class="about__photo" src="./img/about-3.png" alt="Johny Doe photo" width="90" height="90">
+							<h3 class="about__name">Johnathan Doe</h3>
+							<span class="about__occupation">Designer</span>
+							<ul class="about__social">
+								<li class="about__social-item">
+									<a class="about__social-link" href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li class="about__social-item about__social-item">
+									<a class="about__social-link about__social-link--twitter" href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li class="about__social-item">
+									<a class="about__social-link" href="#"><i class="fa fa-link"></i></a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- end -->
+			<!-- slider -->
+			<section class="slider" id="blog">
+				<h2 class="visually-hidden">Our blog</h2>
+				<div class="container">
+					<input type="radio" name="slider" id="slider-input-1" checked>
+					<input type="radio" name="slider" id="slider-input-2">
+					<input type="radio" name="slider" id="slider-input-3">
+					<div class="slider__items">
+						<blockquote class="slider__item">
+							<p class="slider__post">“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”</p>
+							<cite class="slider__author">John Doe</cite>
+						</blockquote>
+						<blockquote class="slider__item">
+							<p class="slider__post">“Tempor turpis odio, sit suspendisse tamet cursus leo consequat non. Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”</p>
+							<cite class="slider__author">Jonny Doe</cite>
+						</blockquote>
+						<blockquote class="slider__item">
+							<p class="slider__post">“Sit amet cursus leo consequat non. Suspendisse tempor turpis odio, suspendisse tempor turpis odio, maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”</p>
+							<cite class="slider__author">Johnathan Doe</cite>
+						</blockquote>
+					</div>
+					<div class="slider__controls">
+						<label class="slider__control" for="slider-input-1"></label>
+	          <label class="slider__control" for="slider-input-2"></label>
+	          <label class="slider__control" for="slider-input-3"></label>
+					</div>
+				</div>
+			</section>
+			<!-- end -->
+			<!-- support -->
+			<section class="support container" id="support">
+				<h2 class="visually-hidden">Support</h2>
+				<ul class="support__items">
+					<li class="support__item">
+						<a class="support__link" href="#">
+							<div class="support__icon icon1">
+								<i class="fa fa-bolt"></i>
+							</div>
+							<h3 class="support__title">Fast servers</h3>
+							<p class="support__description">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+						</a>
+					</li>
+					<li class="support__item">
+						<a class="support__link" href="#">
+							<div class="support__icon icon2">
+								<i class="fa fa-cloud"></i>
+							</div>
+							<h3 class="support__title">Cloud servers</h3>
+							<p class="support__description">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+						</a>
+					</li>
+					<li class="support__item">
+						<a class="support__link" href="#">
+							<div class="support__icon icon3">
+								<i class="fa fa-arrows"></i>
+							</div>
+							<h3 class="support__title">Domain transfer</h3>
+							<p class="support__description">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+						</a>
+					</li>
+					<li class="support__item">
+						<a class="support__link" href="#">
+							<div class="support__icon icon4">
+								<i class="fa fa-comments"></i>
+							</div>
+							<h3 class="support__title">Live support</h3>
+							<p class="support__description">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<!-- end -->
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<a class="footer__logo--link" href="./index.html">
+						<img class="footer__logo" src="./img/logo-footer.png" alt="GhostHost logotype" height="29" width="133">
+					</a>
+					<ul class="footer__nav">
+						<li class="footer__item"><a class="footer__link" href="#">Home</a></li>
+						<li class="footer__item"><a class="footer__link" href="#">About us</a></li>
+						<li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
+						<li class="footer__item"><a class="footer__link" href="#">Policy</a></li>
+						<li class="footer__item"><a class="footer__link" href="#">Contact</a></li>	
+					</ul>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copyright">
+						<p class="footer__about">Lorem ipsum dolor sit amet, consecteteeseurı adipiscing elit. Donec mollis commodoeesene que, non commodo risus volutpat vel.</p>
+						<p>Design by <a class="footer__copyright-link" href="#" target="_blank">Mert Can Eyriyer</a>.</p>
+					</div>
+
+					<div class="footer__menu">
+						<ul class="footer__column">
+							<li class="footer__menu-item"><a class="footer__menu-link" href="#">Support</a></li>
+							<li class="footer__menu-item"><a class="footer__menu-link" href="#">Account</a></li>
+							<li class="footer__menu-item"><a class="footer__menu-link" href="#">Product catalog</a></li>
+							<li class="footer__menu-item"><a class="footer__menu-link" href="#">Shortcodes</a></li>
+						</ul>
+						<ul class="footer__column">
+							<li class="footer__menu-item"><a class="footer__menu-link" href="#">Site map</a></li>
+							<li class="footer__menu-item"><a class="footer__menu-link" href="#">Whois search</a></li>
+							<li class="footer__menu-item"><a class="footer__menu-link" href="#">Web mail</a></li>
+							<li class="footer__menu-item"><a class="footer__menu-link" href="#">Find domain</a></li>
+						</ul>
+					</div>
+
+					<div class="footer__contacts">
+						<p class="footer__phone"><i class="fa fa-phone footer-icon"></i><a class="footer__phone-link" href="tel:0000-0000-0000">0000-0000-0000</a></p>
+						<p class="footer__email"><i class="fa fa-envelope footer-icon"></i><a class="footer__email-link" href="mailto:informationteam@ghosthost.com">informationteam@ghosthost.com</a></p>
+						<p class="footer__address">Lorem Ipsum Street, Lorem Avenue, Lorem Ipsum</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,232 @@
+.hosting {
+	margin-top: 92px;
+	min-width: 1230px;
+	background-image: url('../../img/hosting-bg.jpg');
+	background-position: top center;
+	background-repeat: repeat-x;
+}
+
+.hosting__list {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 99px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.hosting__item {
+	height: 565px;
+	width: 255px;
+	margin-top: 100px;
+	padding: 35px 28px;
+	padding-left: 27px;
+	border-top: 5px solid grey;
+	text-align: center;
+	background-color: white;
+	-webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+	        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.hosting__item:hover {
+	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+	      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hosting__item--basic {
+	border-color: #f9d423;
+}
+
+.hosting__item--normal {
+	border-color: #7f8c8d;
+}
+
+.hosting__item--big {
+	border-color: #f85f40;
+}
+
+.hosting__item--biggest {
+	border-color: #1abc9c;
+}
+
+.hosting__infographics {
+	position: relative;
+	width: 53px;
+	height: 53px;
+	margin: 0 auto;
+	margin-bottom: 21px;
+}
+
+.hosting__infographics svg {
+	position: absolute;
+	right: 2px;
+	stroke-width: 6px;
+	stroke-linecap: round;
+}
+
+.hosting__infographics i {
+	position: absolute;
+	display: block;
+	top: 20px;
+	left: 15px;
+}
+
+.fa-anchor {
+	color: #f9d423;
+}
+
+.fa-star-half-empty {
+	color: #7f8c8d;
+}
+
+.fa-star {
+	color: #f85f40;
+}
+
+.fa-diamond {
+	color: #1abc9c;
+}
+
+
+/* svg styles */
+
+.circle {
+  fill: none;
+  stroke-width: 6;
+  stroke-linecap: round;
+}
+
+.hosting__chart--basic {
+  stroke: #f9d423;
+}
+
+.hosting__chart--normal {
+  stroke: #7f8c8d;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.hosting__chart--big {
+  stroke: #f85f40;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.hosting__chart--biggest {
+  stroke: #1abc9c;
+}
+
+/* hosting blocks */
+
+.hosting__heading {
+	margin-top: 21px;
+	margin-bottom: 18px;
+	text-transform: uppercase;
+}
+
+.hosting__table-wrapper {
+	padding: 8px 0;
+	margin-bottom: 30px;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.hosting__table {
+	width: 200px;
+	text-align: left;
+}
+
+.hosting__table-head {
+	padding: 11px 0;
+	font-weight: 300;
+	color: #b4b4b4;
+}
+
+.hosting__table-cell {
+	text-align: right;
+}
+
+.hosting__item--basic .hosting__table-cell {
+	color: #f9d423;
+}
+
+.hosting__item--normal .hosting__table-cell {
+	color: #7f8c8d;
+}
+
+.hosting__item--big .hosting__table-cell {
+	color: #f85f40;
+}
+
+.hosting__item--biggest .hosting__table-cell {
+	color: #1abc9c;
+}
+
+.hosting__price {
+	width: 105px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	font-size: 28px;
+	font-weight: 700;
+	color: #2c2c2c;
+	border-bottom: 3px solid grey;
+}
+
+.hosting__item--basic .hosting__price {
+	border-color: #f9d423;
+}
+
+.hosting__item--normal .hosting__price {
+	border-color: #7f8c8d;
+}
+
+.hosting__item--big .hosting__price {
+	border-color: #f85f40;
+}
+
+.hosting__item--biggest .hosting__price {
+	border-color: #1abc9c;
+}
+
+.hosting__dollar {
+	font-size: 17px;
+	font-weight: 900;
+}
+
+.hosting__month {
+	font-size: 13px;
+	font-weight: 400;
+	color: #8d8d8d;
+}
+
+.hosting__button {
+	margin-top: 4px;
+	padding: 15px 10px;
+	border: 0;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: transparent;
+	color: #282828;
+}
+
+.hosting__button:hover,
+.hosting__button:focus,
+.hosting__button:active {
+	outline: 0;
+	text-decoration: underline;
+}
+
+.dashed-border {
+		width: 100%;
+		height: 2px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(5%, rgba(255, 255, 255, 0)), color-stop(5%, #d4d4d4), color-stop(40%, #d4d4d4), color-stop(30%, rgba(255, 255, 255, 0)));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 5%, #d4d4d4 5%, #d4d4d4 40%, rgba(255, 255, 255, 0) 30%);
+    background-position: top;
+    background-size: 9px 2px;
+    background-repeat: repeat-x;
+}
